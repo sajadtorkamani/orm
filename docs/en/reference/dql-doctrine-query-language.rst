@@ -268,7 +268,7 @@ Retrieve a CmsUser and fetch join all the phonenumbers it has:
     $users = $query->getResult(); // array of CmsUser objects with the phonenumbers association loaded
     $phonenumbers = $users[0]->getPhonenumbers();
 
-Hydrate a result in Ascending:
+Hydrate a result in Ascending Order:
 
 .. code-block:: php
 
